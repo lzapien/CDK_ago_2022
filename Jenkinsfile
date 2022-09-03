@@ -13,7 +13,7 @@ env'''
 
     stage('build') {
       steps {
-        sh './build.sh'
+        sh 'sh build.sh'
       }
     }
 
