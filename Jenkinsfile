@@ -11,5 +11,11 @@ env'''
       }
     }
 
+    stage('build') {
+      steps {
+        sh './build.sh'
+      }
+    }
+
   }
 }
