@@ -29,5 +29,11 @@ env'''
       }
     }
 
+    stage('Publish') {
+      steps {
+        sh 'sh /Users/luis/cdk_ago_2022/proyecto/publish.sh'
+      }
+    }
+
   }
 }
